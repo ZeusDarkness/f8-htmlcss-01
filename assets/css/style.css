@@ -54,6 +54,9 @@ a {
     height: calc(100vh - 90px);
     background-color: #e6f0ff;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .navbar {
     display: flex;
@@ -87,9 +90,6 @@ a {
     margin-left: 18px;
 }
 /* Hero */
-.hero {
-    padding-top: 130px;
-}
 .hero .info {
     width: 51%;
 }
