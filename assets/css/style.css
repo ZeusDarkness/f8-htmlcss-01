@@ -299,7 +299,7 @@ a {
   display: flex;
 }
 .stats .img-block,
-.info {
+.stats .info {
   width: 50%;
 }
 .stats .info {
@@ -332,7 +332,7 @@ a {
   border-radius: 12px;
   background: #000339;
 }
-.stats .desc {
+.stats .info .desc {
   width: 309px;
   margin-top: 20px;
   color: #5a6473;
@@ -415,10 +415,10 @@ a {
   font-weight: 500;
 }
 /* Subscription */
-.subscription{
+.subscription {
   margin-top: 90px;
 }
-.subscription .body{
+.subscription .body {
   position: relative;
   display: flex;
   height: 370px;
@@ -426,82 +426,83 @@ a {
   background: #063183;
   align-items: center;
 }
-.subscription .info{
+.subscription .info {
   width: 671px;
   padding: 0 80px;
 }
-.subscription .info .sub-title{
-  color: #FFF;
+.subscription .info .sub-title {
+  color: #fff;
   font-size: 3.5rem;
   font-weight: 600;
   line-height: 1;
 }
-.subscription .info .desc{
+.subscription .info .desc {
   margin-top: 15px;
-  color: #FFF;
+  color: #fff;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.88;
   opacity: 0.75;
 }
-.subscription .btn{
+.subscription .btn {
   margin-top: 20px;
   min-width: 151px;
   border-radius: 12px;
-  background: #FFF;
+  background: #fff;
   color: #002366;
   font-size: 1.3rem;
   font-weight: 500;
 }
-.subscription .image{
+.subscription .image {
   position: absolute;
   bottom: 0;
   right: 221px;
 }
 /* Footer */
-.footer{
+.footer {
   margin-top: 55px;
   padding: 50px 0 58px;
 }
-.footer .row{
+.footer .row {
   display: flex;
 }
-.footer .row-top{
+.footer .row-top {
   gap: 185px;
 }
-.footer .heading{
-  font-family: 'Lato', sans-serif;
-  color: #1C1C1D;
+.footer .heading {
+  font-family: "Lato", sans-serif;
+  color: #1c1c1d;
   font-size: 2rem;
   font-weight: 700;
 }
 .footer .list,
-.footer .desc{
+.footer .desc {
   margin-top: 42px;
 }
-.footer  .list .item{
+.footer .list .item {
   margin-top: 18px;
 }
-.footer .list .item a, .desc{
-  color: #7A7A7E;
+.footer .list .item a,
+.footer .list .item .desc {
+  color: #7a7a7e;
   font-size: 1.6rem;
   font-weight: 400;
   white-space: nowrap;
 }
-.footer .desc{
+.footer .desc {
   white-space: normal;
   line-height: 1.75;
 }
-.footer .social{
+.footer .social {
   margin-top: 40px;
 }
-.footer .row-bottom{
+.footer .row-bottom {
   margin-top: 81px;
   justify-content: space-between;
   align-items: center;
 }
-.footer .coppyrigth{
-  color: #C2C2C2;
+.footer .coppyrigth {
+  color: #c2c2c2;
   font-size: 1.4rem;
   font-weight: 400;
 }
